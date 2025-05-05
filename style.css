@@ -94,13 +94,13 @@ img{
 
 /*imgswing*/
 .imgswing {
-    animation: imgswing ease-in-out 0.7s infinite alternate;
+    animation: imgswing ease-in-out 0.8s infinite alternate;
     /*transform-origin: center 7px;*/
     float:left;
 }
 @keyframes imgswing {
-    0% { transform: rotate(2deg); }
-    100% { transform: rotate(-2deg); }
+    0% { transform: rotate(5deg); }
+    100% { transform: rotate(-5deg); }
 }
 
 /*旋轉*/
@@ -119,7 +119,7 @@ img{
 
 /* btn 大小跳動 */
 .pulse_ani{
-    animation: pulse 1s ease-in-out infinite alternate;
+    animation: pulse 0.8s ease-in-out infinite alternate;
     transition: all;
   }
 @keyframes pulse{
