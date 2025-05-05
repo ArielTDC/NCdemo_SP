@@ -1,0 +1,128 @@
+head, body{
+	padding: 0;
+	margin: 0;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.full-width{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1920px;
+}
+.content, .full-width>div{
+	/*max-width: 1000px;*/
+	position: relative;
+	width: 100%;
+
+}
+
+.roundBorder{
+	border-radius: 26px;
+    transform: translateZ(0px);
+}
+
+.videoSection{
+	position: relative;}
+
+.bearSection{
+	position: relative;
+	overflow: hidden;
+}
+
+/*浮動CTA start*/
+.floatingCta{
+	position: fixed;
+	width: 13.2%;
+	bottom: 4%;
+	left: 88%;
+    z-index: 9999;
+}
+
+.floating{
+	animation: float 1.1s infinite ease-in-out alternate;
+}
+
+@keyframes float {
+    from {
+        -webkit-transform: translateY(0.6vw);
+        transform: translateY(0.6vw);
+    }
+
+    to {
+        -webkit-transform: translateY(-0.6vw);
+        transform: translateY(-0.6vw);
+    }
+}
+/*浮動CTA end*/
+
+.png_1 {
+	position: absolute;
+	width: 21%;
+	bottom: 71%;
+	left: 10.5%;
+    z-index: 999;
+}
+
+.png_2 {
+	position: absolute;
+	width: 16%;
+	top: 8%;
+	left: 75.5%;
+    z-index: 999;
+}
+
+.png_3 {
+	position: absolute;
+	width: 14.6%;
+	bottom: 69%;
+	left: 76%;
+    z-index: 999;
+}
+
+.cta_1 {
+	position: absolute;
+	width: 46%;
+	bottom: 9%;
+	left: 27%;
+    z-index: 999;
+}
+
+/*imgswing*/
+.imgswing {
+    animation: imgswing ease-in-out 0.7s infinite alternate;
+    /*transform-origin: center 7px;*/
+    float:left;
+}
+@keyframes imgswing {
+    0% { transform: rotate(2deg); }
+    100% { transform: rotate(-2deg); }
+}
+
+/*旋轉*/
+.rotate {
+    animation: rotation 13s infinite linear;
+  }
+  
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+/* btn 大小跳動 */
+.pulse_ani{
+    animation: pulse 1s ease-in-out infinite alternate;
+    transition: all;
+  }
+@keyframes pulse{
+    0% { transform: scale(1);}
+    100% { transform: scale(1.03);}
+} 
