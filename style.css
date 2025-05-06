@@ -63,7 +63,7 @@ img{
 .png_1 {
 	position: absolute;
 	width: 21%;
-	bottom: 71%;
+	bottom: 69%;
 	left: 10.5%;
     z-index: 999;
 }
@@ -79,7 +79,7 @@ img{
 .png_3 {
 	position: absolute;
 	width: 14.6%;
-	bottom: 69%;
+	bottom: 67%;
 	left: 76%;
     z-index: 999;
 }
@@ -87,7 +87,7 @@ img{
 .cta_1 {
 	position: absolute;
 	width: 46%;
-	bottom: 9%;
+	bottom: 3%;
 	left: 27%;
     z-index: 999;
 }
